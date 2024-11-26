@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+ 
+<body >
+    
+    
+    <button id="btn">speid!</button>
+    <p>
+        <span id="display">0</span> 
+    </p>
+    <script type="text/javascript">
+        let count = 0;
+        let btn = document.getElementById("btn");
+        let disp = document.getElementById("display");
+         
+        btn.onclick = function () {
+                    count++;
+        disp.innerHTML = count;
+        }
+    </script>
+    <form method="POST" action="handel-click.php">
+        <input type="text"/>
+        <button>Saglabat</button>
+        
+
+
+    </form>
+</body>
+</html>
